@@ -1,0 +1,169 @@
+head {
+    margin-top: none;
+    margin-bottom: none;
+}
+body{
+    background-color: #ededed; 
+}
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.container-fluid {
+    background-color: white; 
+}
+.navbar-brand {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    background:#4aaaa5;
+}
+#main1 {
+    color: white;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin-top: 0 !important;
+    padding: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+}
+.row {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#img {
+    inline-size: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    float:left;
+}
+#img_border {
+    border:2px solid #4AAAA5;
+}
+.smallpics {
+    height: 130%;
+    width: 100%;
+    padding-left: none;
+    padding-right: none;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#maincol7 {
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#maincol7 p {
+    margin-top: 25px !important ;
+    margin-left: 15px;
+    font-size: medium;
+    font-family: Georgia;
+    color:dimgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#maincol7 h2{
+    padding-left: 20px;
+}
+#maincol7 hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#smallercol4 {
+    margin-top: 70px;
+    padding-bottom: 40px !important;
+    box-sizing: auto;
+}
+#smallercol4 h2 {
+    padding-left: 20px;
+}
+#smallercol4 hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#datacontainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#datacol12 {
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    overflow: hidden;
+}
+#datacol12 p {
+    font-size: medium;
+    font-family: Georgia;
+    color:dimgray;
+    padding-bottom: 20px;
+}
+#comparisonscont {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#compariscol {
+    margin-top: 70px !important;
+    padding-top: 10px !important;
+}
+#compariscol h1 {
+    color: #4aaaa5;
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+#compariscol hr {
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+#compariscol p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: medium;
+    font-family: Georgia;
+    color:dimgray;
+}
+.col-md-6 h2 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    h2 {
+        font-size: 20px;
+    }
+    #maincol7 p {
+        font-size: small;
+    }
+    #datacol12 p {
+        font-size: small;
+    }
+    #compariscol p {
+        font-size: small;
+    }
+    #compariscol h1 {
+        font-size: 20px;
+    }
+    .col-md-6 h2 {
+        font-size: 15px;
+    }
+    #datacol12 {
+        font-size: 0.8em;
+    }
+  }
