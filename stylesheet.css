@@ -22,6 +22,9 @@ h2 {
     display: inline-block;
     background:#4aaaa5;
 }
+/* .dropdown-menu {
+    background-color: white !important;
+} */
 #main1 {
     color: white;
     font-family: Georgia;

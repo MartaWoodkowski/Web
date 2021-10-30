@@ -2,7 +2,7 @@
 
 ## Background
 
-Using HTML and CSS to create a dashboard showing off the analysis I've done.
+Using HTML and CSS, created a dashboard showing off the analysis of the weather I've done in the past.
 
 ![Images/landingResize.png](Images/landingResize.png)
 
@@ -10,14 +10,14 @@ Using HTML and CSS to create a dashboard showing off the analysis I've done.
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-Create a visualization dashboard website using visualizations from a past analysis [weather data](Resources/cities.csv).
+Created a visualization dashboard website using visualizations from a past analysis [weather data](Resources/cities.csv).
 
-In building this dashboard, create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. Also, there is a landing page, a page where we can see a comparison of all of the plots, and another page where you can view the data used to build them.
+In building this dashboard, created individual HTML pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. Also, there is a landing page, where you can see a comparison of all of the plots, and another page where you can view the data used to build them.
 
 
 ### Website:
 
-The website must consist of 7 pages total, including:
+The website consists of 7 pages total, including:
 
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
@@ -32,17 +32,17 @@ The website must consist of 7 pages total, including:
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component. 
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html).
+    * The table is a bootstrap table component. 
+    * The data came from exporting the `.csv` file as HTML, or converting it to HTML. 
 
-The website must, at the top of every page, have a navigation menu that:
+The website has a navigation menu that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
 
-Finally, the website must be deployed to GitHub pages.
+Finally, the website is deployed to GitHub pages. Click [here](https://martawoodkowski.github.io/Web/index.html) to see it.
 
 
 ### Bonuses
